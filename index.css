@@ -1,0 +1,39 @@
+#topo{
+    background-color: black;
+    width: 100%;
+}
+#logo{
+    background-color: #282828;
+    display: flex;
+    width: 100%;
+    height: 34px;
+
+}
+div #logo1{
+    align-items: center;
+    color: white;
+}
+#fundo1{
+    height: 700px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 1300px;
+}
+#vestidos{}
+#roupas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.brancas{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 600px;
+}
+.agora{
+    border-radius: 50px;
+    padding: 30px;
+    margin: 20px;
+    width: 200px;
+    transition: all 0.3s ease-out;
+}
