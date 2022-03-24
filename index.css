@@ -14,10 +14,11 @@ div #logo1{
     color: white;
 }
 #imgfundo{
-    height: 700px;
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 1300px;
+    height: 500px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 #roupas{
     display: flex;
