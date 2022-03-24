@@ -1,23 +1,25 @@
+let elementImg = document.getElementById('imgfundo');
+
 let local_img = 1;
-function trocarImg(direcao){
+function trocar(direcao){
     if(local_img == 1){
         if(direcao == "avancar"){
-            elementImg.src = 'fundo2.jpg';
+            elementImg.src = 'img/fundo2.webp';
             local_img = 2;
 
         }else{
-            elementImg.src = 'fundo3.jpg';
+            elementImg.src = 'img/fundo3.webp';
             local_img = 3;
 
         }  
     }
     else if(local_img == 2){
         if(direcao == "avancar"){
-            elementImg.src = 'img/bg-3.jpeg';
+            elementImg.src = 'img/fundo3.webp';
             local_img = 3;
 
         }else{
-            elementImg.src = 'img/bg-1.jpeg';
+            elementImg.src = 'img/fundo1.webp';
             local_img = 1;
 
         }  
@@ -25,11 +27,11 @@ function trocarImg(direcao){
     }
     else if(local_img == 3){
         if(direcao == "avancar"){
-            elementImg.src = 'img/bg-1.jpeg';
+            elementImg.src = 'img/fundo1.webp';
             local_img = 1;
 
         }else{
-            elementImg.src = 'img/bg-2.jpeg';
+            elementImg.src = 'img/fundo2.webp';
             local_img = 2;
 
         }  
