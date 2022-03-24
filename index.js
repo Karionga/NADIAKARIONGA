@@ -19,8 +19,8 @@ function trocar(direcao){
             local_img = 3;
 
         }else{
-            elementImg.src = 'img/fundo1.webp';
-            local_img = 1;
+            elementImg.src = 'img/fundo4.webp';
+            local_img = 4;
 
         }  
 
